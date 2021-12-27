@@ -17,6 +17,7 @@
           <th>Actor </th>
           <th>Actress</th>
           <th>Rating</th>
+          <th>Director Name</th>
         </thead>
         {% for movie in movies_list %}
         <tr>
@@ -25,6 +26,7 @@
           <td>{{movie.actor}}</td>
           <td>{{movie.actress}}</td>
           <td>{{movie.rating}}</td>
+          <td>{{movie.director_name}}</td>
         </tr>
         {% endfor %}
       </table>
